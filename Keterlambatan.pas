@@ -40,7 +40,7 @@ waktutotal:=(waktujam*60)+waktumenit;
 
 if (jabatan= 'panitia') and (waktutotal>420) then
     begin
-        denda:=((waktutotal-420) div 5)*20000;
+        denda:=((waktutotal-420) div 5)*10000;
     end;
 if jabatan = ('ketua') then   
     if waktutotal >420 then
